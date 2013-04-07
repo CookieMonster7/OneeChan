@@ -1187,7 +1187,7 @@
             saveAndClose  : true,
             init: function()
             {
-                var a = $("<span id='ocmessage'>OneeChan is <u>discontinued</u>.<br><br>Using deprecated software is never recommended, so if you'd like to continue using OneeChan, <a href='https://github.com/seaweedchan/OneeChan/fork'>fork it</a>.<br><br>Otherwise, please install <a href='http://zixaphir.github.com/appchan-x/'>AppChan X</a> or <a href='https://github.com/ahodesuka/4chan-Style-Script'>4chan Style Script</a>, or learn to write your own CSS.<br><br><br><img src='http://i.imgur.com/bnlyA6J.png'></span>");
+                var a = $("<span id='ocmessage'>OneeChan is <u>discontinued</u>.<br><br>Using deprecated software is never recommended, so if you'd like to continue using OneeChan, <a href='https://github.com/seaweedchan/OneeChan'>fork it</a>.<br><br>Otherwise, please install <a href='http://zixaphir.github.com/appchan-x/'>AppChan X</a> or <a href='https://github.com/ahodesuka/4chan-Style-Script'>4chan Style Script</a>, or learn to write your own CSS.<br><br><br><img src='http://i.imgur.com/bnlyA6J.png'></span>");
                 return $("body").replace(a);
             },
             show: function()
